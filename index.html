@@ -3,84 +3,93 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Tokens</title>
-	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
-	<script type="text/javascript" src="assets/scripts/packages/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/scripts/packages/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../assets/styles/style.css">
+	<script type="text/javascript" src="../assets/scripts/packages/jquery.min.js"></script>
+	<script type="text/javascript" src="../assets/scripts/packages/jquery-ui.min.js"></script>
 </head>
 <body>
 	<div class="container">
 
 		<video id="videoDefault" autoplay loop>
-			<source src="assets/videos/Test_Tos_Tokens.mp4" type="video/mp4">
+			<source src="../assets/videos/Test_Tos_Tokens.mp4" type="video/mp4">
 		</video>
 
 		<video id="goalReached" pause>
-			<source src="assets/videos/goalReached.mp4" type="video/mp4">
+			<source src="../assets/videos/goalReached.mov" type="video/mov">
 		</video>
 
 		<div class="tokensWrapper">
-			<img src="assets/images/token.png" alt="" class="token" id="1" style="z-index: 102; left: -4px; top: 54px;">
-			<img src="assets/images/token.png" alt="" class="token" id="2" style="z-index: 75; left: 519px; top: 443px;">
-			<img src="assets/images/token.png" alt="" class="token" id="3" style="z-index: 135; left: 1210px; top: 693px;">
-			<img src="assets/images/token.png" alt="" class="token" id="4" style="z-index: 98; left: 1275px; top: 321px;">
-			<img src="assets/images/token.png" alt="" class="token" id="5" style="z-index: 66; left: 1663px; top: 30px;">
-			<img src="assets/images/token.png" alt="" class="token" id="6" style="z-index: 114; left: 811px; top: -108px;">
-			<img src="assets/images/token.png" alt="" class="token" id="7" style="z-index: 65; left: -223px; top: 106px;">
-			<img src="assets/images/token.png" alt="" class="token" id="8" style="z-index: 96; left: 1657px; top: 414px;">
-			<img src="assets/images/token.png" alt="" class="token" id="9" style="z-index: 123; left: 1046px; top: -136px;">
-			<img src="assets/images/token.png" alt="" class="token" id="10" style="z-index: 56; left: 655px; top: -157px;">
-			<img src="assets/images/token.png" alt="" class="token" id="11" style="z-index: 126; left: 469px; top: 25px;">
-			<img src="assets/images/token.png" alt="" class="token" id="12" style="z-index: 54; left: -124px; top: 457px;">
-			<img src="assets/images/token.png" alt="" class="token" id="13" style="z-index: 103; left: 136px; top: -91px;">
-			<img src="assets/images/token.png" alt="" class="token" id="14" style="z-index: 104; left: 1545px; top: 543px;">
-			<img src="assets/images/token.png" alt="" class="token" id="15" style="z-index: 100; left: 1457px; top: 118px;">
-			<img src="assets/images/token.png" alt="" class="token" id="16" style="z-index: 50; left: 1431px; top: -112px;">
-			<img src="assets/images/token.png" alt="" class="token" id="17" style="z-index: 136; left: 1162px; top: -49px;">
-			<img src="assets/images/token.png" alt="" class="token" id="18" style="z-index: 47; left: 1218px; top: 169px;">
-			<img src="assets/images/token.png" alt="" class="token" id="19" style="z-index: 93; left: 1014px; top: 660px;">
-			<img src="assets/images/token.png" alt="" class="token" id="20" style="z-index: 133; left: 402px; top: 636px;">
-			<img src="assets/images/token.png" alt="" class="token" id="21" style="z-index: 111; left: 935px; top: 356px;">
-			<img src="assets/images/token.png" alt="" class="token" id="22" style="z-index: 120; left: 817px; top: 222px;">
-			<img src="assets/images/token.png" alt="" class="token" id="23" style="z-index: 94; left: 1399px; top: 641px;">
-			<img src="assets/images/token.png" alt="" class="token" id="24" style="z-index: 40; left: 223px; top: 386px;">
-			<img src="assets/images/token.png" alt="" class="token" id="25" style="z-index: 121; left: 721px; top: 430px;">
-			<img src="assets/images/token.png" alt="" class="token" id="26" style="z-index: 38; left: 1154px; top: 364px;">
-			<img src="assets/images/token.png" alt="" class="token" id="27" style="z-index: 32; left: 80px; top: 288px;">
-			<img src="assets/images/token.png" alt="" class="token" id="28" style="z-index: 31; left: 1016px; top: 162px;">
-			<img src="assets/images/token.png" alt="" class="token" id="29" style="z-index: 128; left: 399px; top: 242px;">
-			<img src="assets/images/token.png" alt="" class="token" id="30" style="z-index: 99; left: 1525px; top: 302px;">
-			<img src="assets/images/token.png" alt="" class="token" id="31" style="z-index: 82; left: 804px; top: 667px;">
-			<img src="assets/images/token.png" alt="" class="token" id="32" style="z-index: 36; left: -131px; top: -133px;">
-			<img src="assets/images/token.png" alt="" class="token" id="33" style="z-index: 25; left: 588px; top: 232px;">
-			<img src="assets/images/token.png" alt="" class="token" id="34" style="z-index: 87; left: 1689px; top: 642px;">
-			<img src="assets/images/token.png" alt="" class="token" id="35" style="z-index: 85; left: 1180px; top: 523px;">
-			<img src="assets/images/token.png" alt="" class="token" id="36" style="z-index: 21; left: 1674px; top: 177px;">
-			<img src="assets/images/token.png" alt="" class="token" id="37" style="z-index: 119; left: 924px; top: 8px;">
-			<img src="assets/images/token.png" alt="" class="token" id="38" style="z-index: 71; left: -51px; top: 651px;">
-			<img src="assets/images/token.png" alt="" class="token" id="39" style="z-index: 35; left: -146px; top: 281px;">
-			<img src="assets/images/token.png" alt="" class="token" id="40" style="z-index: 106; left: 171px; top: 628px;">
-			<img src="assets/images/token.png" alt="" class="token" id="41" style="z-index: 132; left: 629px; top: 650px;">
-			<img src="assets/images/token.png" alt="" class="token" id="42" style="z-index: 12; left: 1253px; top: -2px;"> 
-			<img src="assets/images/token.png" alt="" class="token" id="43" style="z-index: 11; left: 372px; top: 463px;">
-			<img src="assets/images/token.png" alt="" class="token" id="44" style="z-index: 125; left: 376px; top: -106px;">
-			<img src="assets/images/token.png" alt="" class="token" id="45" style="z-index: 9; left: 1373px; top: 456px;">
-			<img src="assets/images/token.png" alt="" class="token" id="46" style="z-index: 81; left: 946px; top: 523px;">
-			<img src="assets/images/token.png" alt="" class="token" id="47" style="z-index: 62; left: 240px; top: 132px;">
-			<img src="assets/images/token.png" alt="" class="token" id="48" style="z-index: 6; left: 45px; top: 478px;">
-			<img src="assets/images/token.png" alt="" class="token" id="49" style="z-index: 118; left: 706px; top: 35px;">
-			<img src="assets/images/token.png" alt="" class="token" id="50" style="z-index: 4; left: 1644px; top: -115px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="1" style="z-index: 59; left: 100px; top: 9px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="2" style="z-index: 51; left: 906px; top: 261px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="3" style="z-index: 50; left: 688px; top: 223px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="4" style="z-index: 57; left: 619px; top: 402px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="5" style="z-index: 48; left: 1249px; top: 492px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="6" style="z-index: 23; left: 904px; top: 521px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="7" style="z-index: 22; left: 918px; top: -11px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="8" style="z-index: 21; left: 612px; top: 6px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="9" style="z-index: 58; left: 388px; top: 247px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="10" style="z-index: 56; left: 1451px; top: 243px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="11" style="z-index: 47; left: 1460px; top: 519px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="12" style="z-index: 38; left: 1120px; top: 661px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="13" style="z-index: 37; left: 449px; top: 561px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="14" style="z-index: 44; left: 39px; top: 259px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="15" style="z-index: 14; left: 1712px; top: 391px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="16" style="z-index: 46; left: 663px; top: 673px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="17" style="z-index: 54; left: 1210px; top: -5px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="18" style="z-index: 11; left: 1463px; top: -14px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="19" style="z-index: 55; left: 1649px; top: 113px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="20" style="z-index: 35; left: 218px; top: 419px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="21" style="z-index: 34; left: 16px; top: 545px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="22" style="z-index: 45; left: 214px; top: 666px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="23" style="z-index: 39; left: 1649px; top: 653px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="24" style="z-index: 32; left: 322px; top: -17px;">
+			<img src="../assets/images/token.png" alt="" class="token ui-draggable ui-draggable-handle" id="25" style="z-index: 53; left: 1139px; top: 189px;">
+<!-- 			<img src="../assets/images/token.png" alt="" class="token" id="26" style="z-index: 38; left: 1154px; top: 364px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="27" style="z-index: 32; left: 80px; top: 288px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="28" style="z-index: 31; left: 1016px; top: 162px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="29" style="z-index: 128; left: 399px; top: 242px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="30" style="z-index: 99; left: 1525px; top: 302px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="31" style="z-index: 82; left: 804px; top: 667px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="32" style="z-index: 36; left: -131px; top: -133px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="33" style="z-index: 25; left: 588px; top: 232px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="34" style="z-index: 87; left: 1689px; top: 642px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="35" style="z-index: 85; left: 1180px; top: 523px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="36" style="z-index: 21; left: 1674px; top: 177px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="37" style="z-index: 119; left: 924px; top: 8px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="38" style="z-index: 71; left: -51px; top: 651px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="39" style="z-index: 35; left: -146px; top: 281px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="40" style="z-index: 106; left: 171px; top: 628px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="41" style="z-index: 132; left: 629px; top: 650px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="42" style="z-index: 12; left: 1253px; top: -2px;"> 
+			<img src="../assets/images/token.png" alt="" class="token" id="43" style="z-index: 11; left: 372px; top: 463px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="44" style="z-index: 125; left: 376px; top: -106px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="45" style="z-index: 9; left: 1373px; top: 456px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="46" style="z-index: 81; left: 946px; top: 523px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="47" style="z-index: 62; left: 240px; top: 132px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="48" style="z-index: 6; left: 45px; top: 478px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="49" style="z-index: 118; left: 706px; top: 35px;">
+			<img src="../assets/images/token.png" alt="" class="token" id="50" style="z-index: 4; left: 1644px; top: -115px;"> -->
 		</div>
 
 		<div id="chat"></div>
 
-		<audio preload="auto" id="sound-1" src="assets/sounds/tip_tiny.mp3" type="audio/mp3"> ... src & fallback ... </audio>
-		<audio preload="auto" id="sound-2" src="assets/sounds/tip_small.mp3" type="audio/mp3"> ... src & fallback ... </audio>
-		<audio preload="auto" id="sound-3" src="assets/sounds/tip_medium.mp3" type="audio/mp3"> ... src & fallback ... </audio>
-		<audio preload="auto" id="sound-4" src="assets/sounds/tip_large.mp3" type="audio/mp3"> ... src & fallback ... </audio>
-		<audio preload="auto" id="sound-5" src="assets/sounds/tip_huge.mp3" type="audio/mp3"> ... src & fallback ... </audio>
-		<audio preload="auto" id="sound-6" src="assets/sounds/tip_show.mp3" type="audio/mp3"> ... src & fallback ... </audio>
+		<div id="goalCounter" class="timeKeepers">
+			<p><span id="tokensAmount">0</span>/25 tokens to goal</p>
+		</div>
+		
+		<div id="goalTimer" class="timeKeepers">
+			<p><span id="timeLeft">5:00</span> to show reset</p>
+			
+		</div>
+
+		<audio preload="auto" id="sound-1" src="../assets/sounds/tip_tiny.mp3" type="audio/mp3"> ... src & fallback ... </audio>
+		<audio preload="auto" id="sound-2" src="../assets/sounds/tip_small.mp3" type="audio/mp3"> ... src & fallback ... </audio>
+		<audio preload="auto" id="sound-3" src="../assets/sounds/tip_medium.mp3" type="audio/mp3"> ... src & fallback ... </audio>
+		<audio preload="auto" id="sound-4" src="../assets/sounds/tip_large.mp3" type="audio/mp3"> ... src & fallback ... </audio>
+		<audio preload="auto" id="sound-5" src="../assets/sounds/tip_huge.mp3" type="audio/mp3"> ... src & fallback ... </audio>
+		<audio preload="auto" id="sound-6" src="../assets/sounds/tip_show.mp3" type="audio/mp3"> ... src & fallback ... </audio>
 	</div>
 
-	<script src="assets/scripts/App_full_screen.js"></script>
+	<script src="../assets/scripts/App_full_screen.js"></script>
 </body> 
 </html>
