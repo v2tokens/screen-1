@@ -9,7 +9,8 @@ body {
 	position: absolute;
 	top: 0;
 	left:0;
-	width: 500px;
+	width: 250px;
+	height: 250px;
 }
 
 .container {
@@ -38,7 +39,8 @@ body {
 	position: absolute;
 	bottom: 50px;
 	right: 50px;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
     padding: 20px;
     background-color: #00000020;
 }
@@ -60,4 +62,58 @@ body {
 	z-index: 1;
 }
 
+.timeKeepers {
+	color: white;
+	position: absolute;
+	z-index: 200;
+	font-weight: bold;
+	font-size: 25px;
+}
 
+.timeKeepers p {
+	margin: 0;
+	padding: 0;
+}
+
+
+#goalCounter {
+	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	bottom: 50px;
+	left: 50px;
+}
+
+#goalTimer {
+	bottom: 50px;
+	left: 50px;
+	visibility: hidden;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	z-index: 201;
+}
+
+#overlayGif{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#whiteOverlay{
+	z-index: 200;
+	background-color: rgba(255,255,255,0);
+}
+
+.toWhite{
+	-webkit-transition: 5s ease-in;
+  -moz-transition: 5s ease-in;
+  -ms-transition: 5s ease-in;
+  -o-transition: 5s ease-in;
+  transition: 5s ease-in;
+	background-color: rgba(255,255,255,1) !important;
+}
