@@ -1,6 +1,6 @@
 var initial;
 var counter = 0;
-var delay = 500;
+var delay = 10;
 
 $(document).ready(function(){
 	count_and_reset(delay);        // set timer in Seconds
