@@ -110,10 +110,10 @@ body {
 }
 
 .toWhite{
-	-webkit-transition: 5s ease-in;
-  -moz-transition: 5s ease-in;
-  -ms-transition: 5s ease-in;
-  -o-transition: 5s ease-in;
-  transition: 5s ease-in;
+	-webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s;
+  transition: 3s;
 	background-color: rgba(255,255,255,1) !important;
 }

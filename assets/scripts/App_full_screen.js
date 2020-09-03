@@ -1,10 +1,10 @@
 var initial;
 var counter = 0;
-var delay = 10;
+var delay = 300;
 
 $(document).ready(function(){
 	count_and_reset(delay);        // set timer in Seconds
-  // resetTokenPosition();
+ //  resetTokenPosition();
 	// drag();
 	// manageZindex();
 });
