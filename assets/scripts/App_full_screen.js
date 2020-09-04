@@ -25,6 +25,7 @@ function count_and_reset(timer){
   	add_to_counter(1);                                         // add 1 to counter
   	var selectToken = "#"+ counter.toString();                 // prepare selector token
 		$(selectToken).css('visibility', 'hidden');                // select token and hide
+    tipGif();
 
     // add_to_counter(1);
     // selectToken = "#"+ counter.toString();                 // prepare selector token
@@ -77,7 +78,7 @@ function count_and_reset(timer){
           $('#goalTimer').css('visibility', 'visible');
           startTimer();
 
-          $('#goalReached').get(0).play();
+          $('#goalReached').get(0).pause();
           $('#goalReached').css('visibility', 'hidden');
           $('#videoDefault').css('visibility', 'visible');
           $('#videoDefault').get(0).play();
@@ -294,8 +295,26 @@ function goalReached(){
           <img id="overlayGif" src="./assets/images/GOAL-REACHED.gif">
         </div>
     `);
+}
 
-    setTimeout(function(){scrollChat()}, 100);
+var cacheNumber = 0;
+function tipGif(){
+
+  var tipGif = ['./assets/images/Tipper_1.gif','./assets/images/Tipper_2.gif','./assets/images/Tipper_3.gif'];
+
+    $('.container').append(`
+        <div id="gifOverlay2" class="overlay">
+          <img id="overlayGif2" src="`+ tipGif[Math.round(Math.random()*2)] + '?n=' + cacheNumber + `">
+        </div>
+    `);
+
+    setTimeout(function(){
+      $('#overlayGif2').remove();
+      $('#gifOverlay2').remove();
+    }, 6000);
+
+    cacheNumber += 1;
+    console.log(cacheNumber);
 }
 
 
